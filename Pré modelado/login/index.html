@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #000000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .forgot-password {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgb(17, 255, 0);
+            text-align: center;
+        }
+        
+        .forgot-password h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        
+        .forgot-password input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        .forgot-password button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        .forgot-password button:hover {
+            background-color: #00ff0d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="forgot-password">
+            <h2>Esqueceu a senha?</h2>
+            <p>Informe o seu endereço de e-mail para recuperar a senha.</p>
+            <form>
+                <input type="email" placeholder="E-mail" required>
+                <button type="submit">Recuperar Senha</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

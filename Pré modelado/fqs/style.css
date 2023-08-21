@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  canvas {
+    max-width: 600px;
+    margin: 0 auto;
+ 
+  }
+ 
